@@ -1,1 +1,5 @@
+# Robot-arm-task1
+This repository for arm robot pages. I have used Laravel 8, which is framework PHP, for back-end pages. There are two versions for website robot arm. The first one Arabic version and another English version. Inside the two versions, there are two folders. The first one, it is an arm-robot folder that has website pages. I prefer to use Visual Studio code for opening the arm-robot folder because you need to use the terminal and write (PHP artisan serve) to see the pages write URL (http://127.0.0.1:8000/) and there are two pages index and see-settings. On the second page, you need to add the URL (display). The second one, it is the UI folder that contains two pages of UI. There is an SQL file to download, or you can download it by write (PHP artisan migrate). The pages location are arm-robot -> resources -> view. For the assets is arm-robot -> public.
 
+Note: you need to change the name of the database inside the .env file (DB_DATABASE) with your database name and username (DB_USERNAME) and password (DB_PASSWORD) if you have a password.
+Note: if you can’t run (PHP artisan serve), you should download Composer.
